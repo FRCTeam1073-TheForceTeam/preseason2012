@@ -33,8 +33,4 @@ public class RandomTriangle extends SmartTriangle{
 	protected int x3() {return randomX3;}
 	protected int y3() {return randomY3;}
 	
-		
-//error is that the points are caleld multiple times so that when lines are redrawn...
-//two serparate pseudo lines are drawn!@
-	
 }
