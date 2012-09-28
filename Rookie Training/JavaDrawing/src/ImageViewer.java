@@ -17,7 +17,7 @@ public class ImageViewer {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	//house keeping ignore this
 		
 		//frame.add(new SmartTriangle(Color.RED));
-		frame.add(new RandomTriangle());	//change Drawing to Triangle or Another class to use that instead
+		frame.add(new Drawing());	//change Drawing to Triangle or Another class to use that instead
 		frame.setVisible(true);	//makes the Window appear on the screen.
 		
 	}

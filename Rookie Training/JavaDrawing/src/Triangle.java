@@ -1,3 +1,7 @@
+/*
+ * a simple drawing like we did on rookie night. paints a pretty triangle - doesn't do much else
+ */
+
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Color;

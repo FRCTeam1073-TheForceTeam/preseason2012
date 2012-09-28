@@ -1,3 +1,9 @@
+/*
+ * this is a triangle that contains method definitions for the 3 points as well as a Color
+ * input. The method definitions can be overriden for other triangles - making this a smart
+ * triangle
+ */
+
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Color;
