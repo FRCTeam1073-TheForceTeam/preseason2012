@@ -1,3 +1,7 @@
+/*
+ * paint logic that allows for a set amount of ellipses to be painted within an x and y range.
+ * This class uses data that is passed in through a constructor and the for loop.
+ */
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Color;

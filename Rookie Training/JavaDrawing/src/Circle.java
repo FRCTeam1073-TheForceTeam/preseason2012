@@ -1,3 +1,6 @@
+/*
+ * basic logic that draws a circle to a defined position
+ */
 import java.awt.Graphics;
 import java.awt.Component;
 import java.awt.Color;

@@ -1,3 +1,6 @@
+/*
+ * basic logic that adds an ellipse to a defined position
+ */
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Color;

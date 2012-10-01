@@ -1,3 +1,8 @@
+/*
+ * Class that paints an ellipse to a defined position. This is "smarter" because it gets information
+ * passed into the class from a constructor. This class also contains functions for calculating
+ * the different aspects of an ellipse.
+ */
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Color;
