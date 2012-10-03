@@ -6,8 +6,8 @@ public class ComplexNumber {
 		this(0.0, 0.0);
 	}
 	public ComplexNumber(double real, double imaginary){
-		this.real = real;
-		this.imaginary = imaginary;
+		setReal(real);
+		setImaginary(imaginary);
 	}
 	public double getReal(){ // get reeeaaaallllll, man
 		return real;
@@ -15,10 +15,10 @@ public class ComplexNumber {
 	public double getImaginary(){
 		return imaginary;
 	}
-	public void setReal(double real){	//probably unneeded; just reconstruct, but hey
+	public void setReal(double real){
 		this.real = real;
 	}
-	public void setImaginary(double imaginary){	//refer to above comment...
+	public void setImaginary(double imaginary){
 		this.imaginary = imaginary;
 	}
 	public ComplexNumber getComplexConjugate(){
@@ -38,7 +38,20 @@ public class ComplexNumber {
 		double imaginary = this.real * in.getImaginary() + this.imaginary * in.getReal();
 		return new ComplexNumber(real, imaginary);
 	}
+	public ComplexNumber divide(ComplexNumber denominator){
+		double denom = denominator.getMagnitude();
+		double numerator_real = real * denominator.getReal() + imaginary * denominator.getImaginary();
+		double numerator_imaginary = imaginary * denominator.getReal() - real * denominator.getImaginary();
+		return new ComplexNumber(numerator_real/denom, numerator_imaginary/denom);
+	}
+	public boolean equals(ComplexNumber in){
+		return (real == in.getReal()) && (imaginary == in.getImaginary());
+	}
 	public double getMagnitude(){
 		return real * real + imaginary * imaginary;
+	}
+	public String toString(){
+		char sign = (imaginary < 0) ? '-' : '+';
+		return '(' + real + ", " + sign + imaginary + "i)";
 	}
 }
