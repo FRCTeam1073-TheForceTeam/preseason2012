@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using KinectGestureBase.Examples;
-namespace Rookie_Created_Kinect_Gestures.KinectGestureBaseLib.Examples
+namespace Rookie_Created_Kinect_Gestures
 {
     class Program
     {
