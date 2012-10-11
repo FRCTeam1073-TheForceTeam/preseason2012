@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-namespace KinectGestureBase.Examples
+using KinectGestureBase.Examples;
+namespace Rookie_Created_Kinect_Gestures.KinectGestureBaseLib.Examples
 {
-    class ExampleRunner
+    class Program
     {
         [STAThread]
         static void Main()
