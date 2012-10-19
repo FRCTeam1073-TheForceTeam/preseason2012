@@ -62,9 +62,10 @@
     <Compile Include="KinectGestureBaseLib\Examples\ExampleForm.Designer.cs">
       <DependentUpon>ExampleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="KinectGestureBaseLib\Gestures\Program.cs" />
     <Compile Include="KinectGestureBaseLib\Gesture.cs" />
     <Compile Include="KinectGestureBaseLib\Gestures\ArmAboveHead.cs" />
+    <Compile Include="KinectGestureBaseLib\Gestures\Victory.cs" />
     <Compile Include="KinectGestureBaseLib\Gestures\XboxArmOut.cs" />
     <Compile Include="KinectGestureBaseLib\Properties\Resources.Designer.cs" />
     <Compile Include="KinectGestureBaseLib\Properties\Settings.Designer.cs" />
