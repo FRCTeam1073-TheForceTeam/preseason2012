@@ -56,13 +56,15 @@
     <Compile Include="BlankForm.Designer.cs">
       <DependentUpon>BlankForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestures\Victory.cs" />
+    <Compile Include="Gestures\XboxArmOut.cs" />
     <Compile Include="KinectGestureBaseLib\Examples\ExampleForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="KinectGestureBaseLib\Examples\ExampleForm.Designer.cs">
       <DependentUpon>ExampleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="KinectGestureBaseLib\Gestures\Program.cs" />
+    <Compile Include="KinectGestureBaseLib\Program.cs" />
     <Compile Include="KinectGestureBaseLib\Gesture.cs" />
     <Compile Include="KinectGestureBaseLib\Gestures\ArmAboveHead.cs" />
     <Compile Include="KinectGestureBaseLib\Gestures\Victory.cs" />
