@@ -1,9 +1,12 @@
 #include <iostream>
 #include <string>
 #include "Dog.h"
-string Cat::getNoise(){
+string Dog::getNoise(){
     return "Woof!";
 }
-string Cat::getSpecies(){
+string Dog::getSpecies(){
     return "Dog";
+}
+Dog::Dog(string name){
+	this->name = name;
 }
