@@ -1,12 +1,9 @@
-#include <iostream>
-#include <string>
 #include "Dog.h"
+#include "Quadrupedal.h"
 string Dog::getNoise(){
     return "Woof!";
 }
 string Dog::getSpecies(){
     return "Dog";
 }
-Dog::Dog(string name){
-	this->name = name;
-}
+Dog::Dog(string name) : Quadrupedal(name){}

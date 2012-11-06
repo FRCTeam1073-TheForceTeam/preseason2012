@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F183371646FDE600C05396 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F183361646FDE600C05396 /* main.cpp */; };
+		00973BC5164880FA00EC536A /* ZooDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00973BC4164880FA00EC536A /* ZooDemo.cpp */; };
+		009AA79B1648681A00BCDAFE /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 009AA7991648681A00BCDAFE /* Dog.cpp */; };
+		009AA7A41648729900BCDAFE /* Zoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 009AA7A31648729900BCDAFE /* Zoo.cpp */; };
+		009AA7A716487F4500BCDAFE /* Beagle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 009AA7A616487F4500BCDAFE /* Beagle.cpp */; };
+		00F183371646FDE600C05396 /* AnimalDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F183361646FDE600C05396 /* AnimalDemo.cpp */; };
 		00F183391646FDE600C05396 /* RookieOOP.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00F183381646FDE600C05396 /* RookieOOP.1 */; };
 		00F183421647003D00C05396 /* Quadrupedal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F183411647003D00C05396 /* Quadrupedal.cpp */; };
 		00F183451647016B00C05396 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F183441647016B00C05396 /* Animal.cpp */; };
@@ -29,8 +33,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00973BC4164880FA00EC536A /* ZooDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ZooDemo.cpp; path = ../ZooDemo.cpp; sourceTree = "<group>"; };
+		009AA7991648681A00BCDAFE /* Dog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
+		009AA79A1648681A00BCDAFE /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		009AA7A1164871E700BCDAFE /* Zoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zoo.h; sourceTree = "<group>"; };
+		009AA7A31648729900BCDAFE /* Zoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zoo.cpp; sourceTree = "<group>"; };
+		009AA7A516487EB400BCDAFE /* Beagle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beagle.h; sourceTree = "<group>"; };
+		009AA7A616487F4500BCDAFE /* Beagle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Beagle.cpp; sourceTree = "<group>"; };
 		00F183321646FDE600C05396 /* RookieOOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RookieOOP; sourceTree = BUILT_PRODUCTS_DIR; };
-		00F183361646FDE600C05396 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00F183361646FDE600C05396 /* AnimalDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AnimalDemo.cpp; sourceTree = "<group>"; };
 		00F183381646FDE600C05396 /* RookieOOP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RookieOOP.1; sourceTree = "<group>"; };
 		00F1833F1646FDF200C05396 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		00F183401646FF9400C05396 /* Quadrupedal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quadrupedal.h; sourceTree = "<group>"; };
@@ -72,16 +83,23 @@
 		00F183351646FDE600C05396 /* RookieOOP */ = {
 			isa = PBXGroup;
 			children = (
-				00F183361646FDE600C05396 /* main.cpp */,
-				00F183381646FDE600C05396 /* RookieOOP.1 */,
+				00F183361646FDE600C05396 /* AnimalDemo.cpp */,
+				00973BC4164880FA00EC536A /* ZooDemo.cpp */,
+				009AA7A1164871E700BCDAFE /* Zoo.h */,
+				009AA7A31648729900BCDAFE /* Zoo.cpp */,
 				00F1833F1646FDF200C05396 /* Animal.h */,
-				00F18348164702EE00C05396 /* Fish.h */,
-				00F183491647043900C05396 /* Fish.cpp */,
-				00F183461647025300C05396 /* Cat.cpp */,
 				00F183441647016B00C05396 /* Animal.cpp */,
 				00F183401646FF9400C05396 /* Quadrupedal.h */,
-				00F183431647007400C05396 /* Cat.h */,
 				00F183411647003D00C05396 /* Quadrupedal.cpp */,
+				009AA79A1648681A00BCDAFE /* Dog.h */,
+				009AA7991648681A00BCDAFE /* Dog.cpp */,
+				009AA7A516487EB400BCDAFE /* Beagle.h */,
+				009AA7A616487F4500BCDAFE /* Beagle.cpp */,
+				00F18348164702EE00C05396 /* Fish.h */,
+				00F183491647043900C05396 /* Fish.cpp */,
+				00F183431647007400C05396 /* Cat.h */,
+				00F183461647025300C05396 /* Cat.cpp */,
+				00F183381646FDE600C05396 /* RookieOOP.1 */,
 			);
 			path = RookieOOP;
 			sourceTree = "<group>";
@@ -136,11 +154,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00F183371646FDE600C05396 /* main.cpp in Sources */,
+				00F183371646FDE600C05396 /* AnimalDemo.cpp in Sources */,
 				00F183421647003D00C05396 /* Quadrupedal.cpp in Sources */,
 				00F183451647016B00C05396 /* Animal.cpp in Sources */,
 				00F183471647025300C05396 /* Cat.cpp in Sources */,
 				00F1834A1647043A00C05396 /* Fish.cpp in Sources */,
+				009AA79B1648681A00BCDAFE /* Dog.cpp in Sources */,
+				009AA7A41648729900BCDAFE /* Zoo.cpp in Sources */,
+				009AA7A716487F4500BCDAFE /* Beagle.cpp in Sources */,
+				00973BC5164880FA00EC536A /* ZooDemo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +249,7 @@
 				00F1833E1646FDE600C05396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

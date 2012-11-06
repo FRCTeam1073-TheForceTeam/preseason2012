@@ -10,9 +10,9 @@
 #define RookieOOP_Quadrupedal_h
 #include"Animal.h"
 #include <string.h>
-using namespace std;
-class Quadrupedal:Animal{
+class Quadrupedal: public Animal{
 public: 
+    Quadrupedal(std::string name);
     int getLegNumber();
 };
 

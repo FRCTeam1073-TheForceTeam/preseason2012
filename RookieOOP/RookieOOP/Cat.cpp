@@ -9,6 +9,8 @@
 #include <iostream>
 #include <string>
 #include "Cat.h"
+#include "Quadrupedal.h"
+Cat::Cat(string name) : Quadrupedal(name) {}
 string Cat::getNoise(){
     return "Meow!";
 }

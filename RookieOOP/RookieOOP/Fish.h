@@ -10,10 +10,11 @@
 #define RookieOOP_Fish_h
 #include "Animal.h"
 #include <string>
-class Fish:Animal{
+class Fish: public Animal{
 protected:
     string getNoise(); 
 public:
+    Fish(string name);
     int getLegNumber();
     string getSpecies();
 };

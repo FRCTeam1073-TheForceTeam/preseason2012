@@ -10,11 +10,10 @@
 #define RookieOOP_Cat_h
 #include "Quadrupedal.h"
 #include <string>
-class Cat:Quadrupedal{
-protected:
+class Cat: public Quadrupedal{
+public:
     string getNoise();
     string getSpecies();
-public:
     Cat(string name);
     
 };

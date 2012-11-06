@@ -9,7 +9,6 @@
 #include <iostream>
 #include "Animal.h"
 #include <string>
-using namespace std;
 Animal::Animal(string name){
     this->name = name;
 }

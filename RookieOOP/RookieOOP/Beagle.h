@@ -8,7 +8,12 @@
 
 #ifndef RookieOOP_Beagle_h
 #define RookieOOP_Beagle_h
-
-
+#include "Dog.h"
+class Beagle : public Dog{
+public:
+    Beagle(string name);
+    string getBreed();
+    void makeNoise();   //beagles do something special...
+};
 
 #endif
