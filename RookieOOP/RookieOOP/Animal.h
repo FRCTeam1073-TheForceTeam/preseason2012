@@ -1,10 +1,7 @@
-//
-//  Animal.h
-//  RookieOOP
-//
-//  Created by Irfan Ugur on 11/4/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+/* Animal.h
+    Header for the abstract Animal class, contains protected and public methods (mostly abstract ones), that different animal subclasses need to implement in their own unique ways.
+ */
+
 #ifndef Animal_h
 #define Animal_h
 
@@ -16,7 +13,7 @@ using namespace std;
 class Animal {
 
 protected:
-   string name;
+    string name;
     virtual std::string getNoise() = 0;
 public:
 	Animal(string name);

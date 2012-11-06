@@ -1,19 +1,15 @@
-//
-//  Beagle.cpp
-//  RookieOOP
-//
-//  Created by Irfan Ugur on 11/5/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
+/* Beagle Implementation */
+ 
 #include <iostream>
 #include "Beagle.h"
 #include "Dog.h"
 #include "Animal.h"
 
 Beagle::Beagle(string name) : Dog(name) {}
+
+
+//Beagles override Animal's make noise method. Other Animals don't necessarily do this because the method is virtual not abstract. 
 void Beagle::makeNoise(){
-    //beagles are hyper dogs so they do make their noise three times!
     for(int i = 0; i < 3; i++){
         Animal::makeNoise();
     }

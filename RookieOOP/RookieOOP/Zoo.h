@@ -1,11 +1,6 @@
-//
-//  Zoo.h
-//  RookieOOP
-//
-//  Created by Irfan Ugur on 11/5/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
+/*Zoo Header 
+ *  Contains a list of animals and methods to pull and interact with the animals it contains
+ */
 #ifndef RookieOOP_Zoo_h
 #define RookieOOP_Zoo_h
 #include <string>

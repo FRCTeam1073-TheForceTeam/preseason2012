@@ -1,10 +1,4 @@
-//
-//  Zoo.cpp
-//  RookieOOP
-//
-//  Created by Irfan Ugur on 11/5/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//Zoo Implementation - Rookies don't need to see this to work with the class, the header is documented
 
 #include <iostream>
 #include "Zoo.h"

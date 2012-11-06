@@ -1,10 +1,5 @@
-//
-//  Fish.h
-//  RookieOOP
-//
-//  Created by Irfan Ugur on 11/4/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+/* Fish Header
+    The Fish class is a concrete implementation of the abstract Animal class. It contains code for all the abstract methods, or method stubs in Animal.h */
 
 #ifndef RookieOOP_Fish_h
 #define RookieOOP_Fish_h

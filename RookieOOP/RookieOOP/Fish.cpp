@@ -1,14 +1,9 @@
-//
-//  Fish.cpp
-//  RookieOOP
-//
-//  Created by Irfan Ugur on 11/4/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+/* Implementation of Fish */
 
 #include <iostream>
 #include "Fish.h"
 #include "Animal.h"
+
 int Fish::getLegNumber(){
     return 0;
 }
