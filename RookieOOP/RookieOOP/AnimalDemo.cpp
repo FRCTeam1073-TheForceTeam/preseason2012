@@ -37,18 +37,25 @@ int main1 (int argc, const char * argv[])
 {
  
 
-    Animal* nemo = new Fish("Nemo");
-    Animal* dory = new Fish("Dory");
+    Fish* nemo = new Fish("Nemo");
+    Fish* dory = new Fish("Dory");
     
-    Quadrupedal* kitty = new Cat("Kitty");
-    Quadrupedal* spot = new Dog("Spot");
-    Quadrupedal* max = new Beagle("Max");
+    Cat* kitty = new Cat("Kitty");
+    Dog* spot = new Dog("Spot");
+    Beagle* max = new Beagle("Max");
     
+    //  /* Let's print out their info with the function I declared at the top! Notice how the function takes Animals, yet we're passing in Dogs, Fish, Cats, etc.
     printAnimalInfo(nemo);
     printAnimalInfo(dory);
     printAnimalInfo(kitty);
     printAnimalInfo(spot);
     printAnimalInfo(max);
+    //  */
+    
+    //The animals are casuing mischief!
+    spot->chaseCat(kitty);
+    kitty->eatAFish(nemo);
+    kitty->eatAFish(dory);
     
     return 0;
 }
