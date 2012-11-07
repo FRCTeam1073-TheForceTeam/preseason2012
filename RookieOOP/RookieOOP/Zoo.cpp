@@ -11,6 +11,7 @@ Zoo::Zoo(string name){
 string Zoo::getZooName(){
     return name;
 }
+
 void Zoo::addAnimal(Animal* animal){
     animals.push_back(animal);
 }
@@ -30,7 +31,7 @@ void Zoo::printNamesBySpecies(string species){
     bool none = true;
     for(int i = 0; i < this->getTotalAnimalCount(); i++){
         if(animals[i]->getSpecies() == species){
-            none = false;
+            if(none) none = false;  //not sure if it's faster to reassign a variable, or to check the value of it animals.Size() times. probably the latter...
             cout << ("\t" + animals[i]->getName() + "\n");
         }
     }

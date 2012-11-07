@@ -20,15 +20,15 @@ private:
 public:
     Zoo(string name);
     string getZooName();
-    void addAnimal(Animal* animal);
-    void printAnimalNames();    //prints the name of every animal in the zoo
-    void printSpeciesNames();   //prints the name of every kind of animal there is in the zoo
-    void printNamesBySpecies(string species);    //prints the name of every animal of x species
-    int getTotalAnimalCount();  //returns the amount of animals that are in the zoo
-    int getSpeciesCount();   //returns the amount of different species that are in the zoo.
-    int getTotalNumberOfLegs();    //returns the amount of legs the zoo contains
-    int getFishInstances(); //returns number of animals that are implementations of the fish class
-    int getQuadrupedalInstances(); //returns the number of animals that are implementations of the Quadrupedal class.
+    void addAnimal(Animal* animal); //adds an animal into the Zoo
+    void printAnimalNames();    //prints the name of every animal in the Zoo
+    void printSpeciesNames();   //prints the name of every kind of animal there is in the Zoo
+    void printNamesBySpecies(string species);    //prints the name of every Animal of x species
+    int getTotalAnimalCount();  //returns the amount of animals that are in the Zoo
+    int getSpeciesCount();   //returns the amount of different species that are in the Zoo.
+    int getTotalNumberOfLegs();    //returns the amount of legs the Zoo contains
+    int getFishInstances(); //returns number of Animals that are implementations of the Fish class
+    int getQuadrupedalInstances(); //returns the number of Animals that are implementations of the Quadrupedal class.
 };
 
 
