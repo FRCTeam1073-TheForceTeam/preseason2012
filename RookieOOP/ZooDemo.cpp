@@ -14,7 +14,7 @@
 #include "Cat.h"
 #include "Beagle.h"
 #include "Fish.h"
-
+#include "PurpleDragon.h"
 int main (int argc, const char * argv[])
 {
     //make a Zoo!
@@ -59,7 +59,23 @@ int main (int argc, const char * argv[])
     
     //let's see the names of the Zoo's Purple Dragons...
     cout << ("\nThe " + hollisTownZoo->getZooName() + "'s Purple Dragons are named...\n");
-    hollisTownZoo->printNamesBySpecies("Purple Dragons");
+    hollisTownZoo->printNamesBySpecies("Purple Dragon");
     
+    hollisTownZoo->addAnimal(new PurpleDragon("Spike"));
+    PurpleDragon* michaelRoss = new PurpleDragon("Michael Ross");
+    hollisTownZoo->addAnimal(michaelRoss);
+    
+    
+    //let's see the names of the Zoo's Purple Dragons... now that we hae some, they'll be in the Zoo.
+    cout << ("\nThe " + hollisTownZoo->getZooName() + "'s Purple Dragons are named...\n");
+    hollisTownZoo->printNamesBySpecies("Purple Dragon");
+    
+    //The Purple Dragon killed some of the animals in the Zoo!
+    michaelRoss->breathePurpleFire(hollisTownZoo->releaseAnimal("Nemo"));   //Nemo wasn't in the Zoo... we'll handle this potential error!
+    michaelRoss->breathePurpleFire(hollisTownZoo->releaseAnimal("Timmy"));
+    michaelRoss->breathePurpleFire(hollisTownZoo->releaseAnimal("Haans"));
+    
+    cout << ("\nAfter The Dragon's Killing Spree, These are the animals that are left in the " + hollisTownZoo->getZooName() + "\n");
+    hollisTownZoo->printAnimalNames();
     return 0;
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00671F82164B3E6800C383B9 /* PurpleDragon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00671F81164B3E6800C383B9 /* PurpleDragon.cpp */; };
 		00973BC5164880FA00EC536A /* ZooDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00973BC4164880FA00EC536A /* ZooDemo.cpp */; };
 		009AA79B1648681A00BCDAFE /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 009AA7991648681A00BCDAFE /* Dog.cpp */; };
 		009AA7A41648729900BCDAFE /* Zoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 009AA7A31648729900BCDAFE /* Zoo.cpp */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00671F80164B3E0300C383B9 /* PurpleDragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleDragon.h; sourceTree = "<group>"; };
+		00671F81164B3E6800C383B9 /* PurpleDragon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PurpleDragon.cpp; sourceTree = "<group>"; };
 		00973BC4164880FA00EC536A /* ZooDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ZooDemo.cpp; path = ../ZooDemo.cpp; sourceTree = "<group>"; };
 		009AA7991648681A00BCDAFE /* Dog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
 		009AA79A1648681A00BCDAFE /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 			children = (
 				00F183361646FDE600C05396 /* AnimalDemo.cpp */,
 				00973BC4164880FA00EC536A /* ZooDemo.cpp */,
+				00671F80164B3E0300C383B9 /* PurpleDragon.h */,
+				00671F81164B3E6800C383B9 /* PurpleDragon.cpp */,
 				009AA7A1164871E700BCDAFE /* Zoo.h */,
 				009AA7A31648729900BCDAFE /* Zoo.cpp */,
 				00F1833F1646FDF200C05396 /* Animal.h */,
@@ -163,6 +168,7 @@
 				009AA7A41648729900BCDAFE /* Zoo.cpp in Sources */,
 				009AA7A716487F4500BCDAFE /* Beagle.cpp in Sources */,
 				00973BC5164880FA00EC536A /* ZooDemo.cpp in Sources */,
+				00671F82164B3E6800C383B9 /* PurpleDragon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,6 @@
 #include "Quadrupedal.h"
 #include "Fish.h"
 
-
 class Zoo{
     typedef std::vector<Animal*> animal_vector;
     typedef std::string string;
@@ -29,6 +28,7 @@ public:
     int getTotalNumberOfLegs();    //returns the amount of legs the Zoo contains
     int getFishInstances(); //returns number of Animals that are implementations of the Fish class
     int getQuadrupedalInstances(); //returns the number of Animals that are implementations of the Quadrupedal class.
+    Animal* releaseAnimal(string name); //removes the first instance of the Animal with the name name from the Zoo
 };
 
 

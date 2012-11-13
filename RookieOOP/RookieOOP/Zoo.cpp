@@ -92,3 +92,15 @@ int Zoo::getQuadrupedalInstances(){
     return count;
 }
 
+Animal* Zoo::releaseAnimal(string name){
+    if(this->getTotalAnimalCount() == 0) return NULL;
+    Animal* return_value = NULL;
+    for(int i = 0; i < this->getTotalAnimalCount(); i++){
+        if(animals[i]->getName() == name){
+            return_value = animals[i];
+            break;
+        }
+    }
+    return return_value;
+}
+

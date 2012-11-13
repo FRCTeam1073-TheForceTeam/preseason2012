@@ -33,7 +33,7 @@ void printAnimalInfo(Animal* inputAnimal){
     
 }
 
-int main1 (int argc, const char * argv[])
+int mainddddd (int argc, const char * argv[])
 {
  
 
@@ -44,13 +44,13 @@ int main1 (int argc, const char * argv[])
     Dog* spot = new Dog("Spot");
     Beagle* max = new Beagle("Max");
     
-    //  /* Let's print out their info with the function I declared at the top! Notice how the function takes Animals, yet we're passing in Dogs, Fish, Cats, etc.
+      /* Let's print out their info with the function I declared at the top! Notice how the function takes Animals, yet we're passing in Dogs, Fish, Cats, etc.
     printAnimalInfo(nemo);
     printAnimalInfo(dory);
     printAnimalInfo(kitty);
     printAnimalInfo(spot);
     printAnimalInfo(max);
-    //  */
+      */
     
     //The animals are casuing mischief!
     spot->chaseCat(kitty);
