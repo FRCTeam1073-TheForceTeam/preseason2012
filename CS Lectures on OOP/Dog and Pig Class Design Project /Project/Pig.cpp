@@ -1,10 +1,4 @@
-//
-//  Pig.cpp
-//  Project
-//
-//  Created by Irfan Ugur on 11/14/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//Pig.cpp - Implementation of Pig.h
 
 #include <iostream>
 #include "Pig.h"

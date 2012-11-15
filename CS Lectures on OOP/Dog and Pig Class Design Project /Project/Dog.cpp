@@ -1,10 +1,4 @@
-//
-//  Dog.cpp
-//  Project
-//
-//  Created by Irfan Ugur on 11/14/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//Dog.cpp - Implementation of Dog.h
 
 #include <iostream>
 #include "Dog.h"

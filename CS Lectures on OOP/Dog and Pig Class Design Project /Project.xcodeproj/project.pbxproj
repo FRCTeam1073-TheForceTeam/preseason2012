@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		001B36381654687A00C6C6C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001B36371654687A00C6C6C0 /* main.cpp */; };
 		001B363A1654687A00C6C6C0 /* Project.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 001B36391654687A00C6C6C0 /* Project.1 */; };
-		001B364216546A5100C6C6C0 /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001B364116546A5100C6C6C0 /* Dog.cpp */; };
 		001B3645165474A800C6C6C0 /* Pig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001B3644165474A800C6C6C0 /* Pig.cpp */; };
 		001B36481654785600C6C6C0 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001B36471654785600C6C6C0 /* Animal.cpp */; };
+		008D24C816548FB500EFD4FB /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008D24C616548FB500EFD4FB /* Dog.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,12 +31,12 @@
 		001B36331654687900C6C6C0 /* Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		001B36371654687A00C6C6C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		001B36391654687A00C6C6C0 /* Project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Project.1; sourceTree = "<group>"; };
-		001B36401654688200C6C6C0 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
-		001B364116546A5100C6C6C0 /* Dog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
 		001B3643165473D300C6C6C0 /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
 		001B3644165474A800C6C6C0 /* Pig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pig.cpp; sourceTree = "<group>"; };
 		001B3646165477BB00C6C6C0 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		001B36471654785600C6C6C0 /* Animal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		008D24C616548FB500EFD4FB /* Dog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
+		008D24C716548FB500EFD4FB /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +53,6 @@
 		001B36281654687900C6C6C0 = {
 			isa = PBXGroup;
 			children = (
-				001B36401654688200C6C6C0 /* Dog.h */,
-				001B364116546A5100C6C6C0 /* Dog.cpp */,
 				001B36361654687A00C6C6C0 /* Project */,
 				001B36341654687900C6C6C0 /* Products */,
 			);
@@ -71,6 +69,8 @@
 		001B36361654687A00C6C6C0 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				008D24C616548FB500EFD4FB /* Dog.cpp */,
+				008D24C716548FB500EFD4FB /* Dog.h */,
 				001B36371654687A00C6C6C0 /* main.cpp */,
 				001B3643165473D300C6C6C0 /* Pig.h */,
 				001B3644165474A800C6C6C0 /* Pig.cpp */,
@@ -132,9 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				001B36381654687A00C6C6C0 /* main.cpp in Sources */,
-				001B364216546A5100C6C6C0 /* Dog.cpp in Sources */,
 				001B3645165474A800C6C6C0 /* Pig.cpp in Sources */,
 				001B36481654785600C6C6C0 /* Animal.cpp in Sources */,
+				008D24C816548FB500EFD4FB /* Dog.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +221,7 @@
 				001B363F1654687A00C6C6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

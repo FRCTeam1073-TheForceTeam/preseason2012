@@ -1,10 +1,4 @@
-//
-//  Dog.h
-//  Project
-//
-//  Created by Irfan Ugur on 11/14/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//Dog.h - Definition of the Dog class which is a specialized subclass (like Pig), of Animal
 
 #ifndef Project_Dog_h
 #define Project_Dog_h

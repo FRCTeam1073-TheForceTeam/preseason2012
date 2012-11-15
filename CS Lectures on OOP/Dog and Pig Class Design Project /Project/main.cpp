@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  Project
-//
-//  Created by Irfan Ugur on 11/14/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  main.cpp - creates objects of the Dog, Pig, and Animal classes and prints out information pertaining to them.
 
 #include <iostream>
 #include "Dog.h"

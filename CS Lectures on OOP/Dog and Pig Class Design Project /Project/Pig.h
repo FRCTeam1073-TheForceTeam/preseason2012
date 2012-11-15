@@ -1,10 +1,4 @@
-//
-//  Pig.h
-//  Project
-//
-//  Created by Irfan Ugur on 11/14/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//Pig.h - Definition of the Pig class. Subclass of Animal
 
 #ifndef Project_Pig_h
 #define Project_Pig_h

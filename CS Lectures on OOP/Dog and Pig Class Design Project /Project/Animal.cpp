@@ -1,10 +1,4 @@
-//
-//  Animal.cpp
-//  Project
-//
-//  Created by Irfan Ugur on 11/14/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//Animal.cpp - Implementation of the Animal class.
 
 #include <iostream>
 #include "Animal.h"

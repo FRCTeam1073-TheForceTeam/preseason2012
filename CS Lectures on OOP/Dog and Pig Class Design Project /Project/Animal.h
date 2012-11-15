@@ -1,10 +1,4 @@
-//
-//  Animal.h
-//  Project
-//
-//  Created by Irfan Ugur on 11/14/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//Animal.h - Definition of the Animal class which can be extended for increased specification.
 
 #ifndef Project_Animal_h
 #define Project_Animal_h
